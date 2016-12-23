@@ -1,0 +1,196 @@
+/*!
+ * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	position:relative;
+	background-color: #16263b;
+}
+
+.navbar-nav {
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-weight: bold;
+		font-size: 1.2em;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		vertical-align: middle;
+	    }
+
+
+.navbar-default {
+	background-color: #5a341c;
+}
+
+section {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+h1 {
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+	
+}
+
+.label-default {
+	background-color: #5a341c;
+}
+
+#about {
+	margin-top: -60px;
+}
+
+.jumbotron img{
+	padding-bottom: 20px; 
+	padding-top: 20px;
+}
+
+.jumbotron{
+	background-color: #37645A;
+}
+
+h2 {
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+	font-size: 2.5em;
+}
+p{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding-bottom: 20px; 
+	padding-top: 20px;
+	color: white;
+}
+
+#skills{
+	margin-top: -90px;
+}
+.list-group{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#portfolio{
+	background-color: white;
+}
+
+#gallery {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.portfolio-image:hover {
+	box-shadow: 5px 5px 5px #777777;
+	
+}
+
+.portfolio-image {
+	display: block;
+	margin: 0px auto;
+	padding: 20px;
+	
+}
+
+#contact {
+	background-color: #37645A;
+}
+.icon {
+	align-content: center;
+}
+
+.icon-item {
+	color: white;
+	padding-top: 40px;
+	text-align: center;
+}
+
+a.email, a.mobile {
+	text-decoration: none;
+}
+
+.mobile, .desktop, .email {
+	font-size: 1.5em;
+	color: white;
+	padding-left: 20px;
+	
+}
+
+.email:hover{
+	color: #5a341c;
+	transition: all .3s ease-in-out;
+}
+.web {
+	font-size: 1.5em;
+	color: white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.list-inline {
+	display: block;
+	text-align: center;
+}
+
+.btn-social{
+	color: white;
+}
+
+
+ .btn-social:hover{
+	color: #5a341c;
+	transition: all .3s ease-in-out;
+}
+
+
+footer p {
+	text-align: center;
+}
+
+footer {
+	background-color: #5a341c;
+	color: white;
+}
+
+.resume {
+	display: block;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+}
+
+a.resume  {
+	text-decoration: none;
+}
+
+a.resume:hover{
+	color: #5a341c;
+	transition: all .3s ease-in-out;
+}
+
+
+@media screen and (min-width:991px){
+	
+	.navbar-header {
+        display: none;
+    }
+	h1 {
+		text-align: left;
+	}
+	
+	h2 {
+		text-align: left;
+	}
+	.nav>li>a {
+     	margin-top: 15px;
+    }
+}
+	
+	
